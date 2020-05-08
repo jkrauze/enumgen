@@ -1,0 +1,17 @@
+<project>
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>enumgen-maven-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>generate-enum</goal>
+                        </goals>
+                    </execution>
+                </executions>
+                <configuration></configuration>
+            </plugin>
+        </plugins>
+    </build>
+</project>
