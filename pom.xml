@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.jkrauze.enumgen</groupId>
+    <artifactId>enumgen</artifactId>
+    <version>0.1.0</version>
+    <modules>
+        <module>core</module>
+        <module>plugin</module>
+    </modules>
+    <packaging>pom</packaging>
+    <name>EnumGen</name>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <freemarker.version>2.3.30</freemarker.version>
+        <value.version>2.8.2</value.version>
+        <junit-jupiter.version>5.6.2</junit-jupiter.version>
+        <reflections.version>0.9.12</reflections.version>
+        <maven.version>3.6.1</maven.version>
+        <maven-plugin.version>3.6.0</maven-plugin.version>
+        <maven-plugin-testing-harness.version>3.3.0</maven-plugin-testing-harness.version>
+        <junit.version>4.13</junit.version>
+        <maven-surefire-plugin.version>2.22.1</maven-surefire-plugin.version>
+        <junit-platform-surefire-provider.version>1.3.2</junit-platform-surefire-provider.version>
+    </properties>
+
+</project>
